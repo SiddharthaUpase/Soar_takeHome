@@ -18,11 +18,11 @@ git clone https://github.com/SiddharthaUpase/Soar_takeHome.git
 
 2. Open the project in Xcode
 ```
-cd TravelSoar
-open TravelSoar.xcodeproj
+cd Soar_beta
+open Soar_beta.xcodeproj
 ```
 
-3.Add an OpenAI key in the ChatMemoryHelper File
+3.Add an open ai api key in the ChatMemoryHelper File
 
 4. Run the application
    - Select your desired simulator or connected device
