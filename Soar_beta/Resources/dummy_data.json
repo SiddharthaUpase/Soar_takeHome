@@ -1,0 +1,88 @@
+{
+    "MerchantId": "00000",
+    "receiptId": "INUGDJ",
+    "storeName": "Multiple Travel Providers",
+    "collectedDate": "2025-02-27T16:09:04Z",
+    "purchasedDate": "2025-02-22T21:10:53-04:00",
+    "currency": "USD",
+    "total": "2456.80",
+    "travelFlights": [
+      {
+        "number": "AA 79",
+        "departureName": "London",
+        "departureCode": "LHR",
+        "arrivalName": "Dallas",
+        "arrivalCode": "DFW",
+        "departureDate": "2025-02-27T10:30:00+00:00",
+        "arrivalDate": "2025-02-27T15:45:00-06:00"
+      },
+      {
+        "number": "AA 2997",
+        "departureName": "Dallas",
+        "departureCode": "DFW",
+        "arrivalName": "San Francisco",
+        "arrivalCode": "SFO",
+        "departureDate": "2025-02-27T17:30:00-06:00",
+        "arrivalDate": "2025-02-27T19:45:00-08:00"
+      },
+      {
+        "number": "LH 1279",
+        "departureName": "Athens",
+        "departureCode": "ATH",
+        "arrivalName": "Frankfurt",
+        "arrivalCode": "FRA",
+        "departureDate": "2025-02-26T14:20:00+02:00",
+        "arrivalDate": "2025-02-26T16:25:00+01:00"
+      },
+      {
+        "number": "A3 603",
+        "departureName": "London",
+        "departureCode": "LHR",
+        "arrivalName": "Athens",
+        "arrivalCode": "ATH",
+        "departureDate": "2025-02-22T09:15:00+00:00",
+        "arrivalDate": "2025-02-22T15:30:00+02:00"
+      },
+      {
+        "number": "BA 901",
+        "departureName": "Frankfurt",
+        "departureCode": "FRA",
+        "arrivalName": "London",
+        "arrivalCode": "LHR",
+        "departureDate": "2025-02-27T08:45:00+01:00",
+        "arrivalDate": "2025-02-27T09:35:00+00:00"
+      },
+      {
+        "number": "UA 152",
+        "departureName": "Los Angeles",
+        "departureCode": "LAX",
+        "arrivalName": "Hong Kong",
+        "arrivalCode": "HKG",
+        "departureDate": "2025-03-18T22:50:00-07:00",
+        "arrivalDate": "2025-03-20T05:54:00+08:00"
+      },
+      {
+        "number": "OZ 211",
+        "departureName": "San Francisco",
+        "departureCode": "SFO",
+        "arrivalName": "Seoul",
+        "arrivalCode": "ICN",
+        "departureDate": "2025-03-21T23:30:00-07:00",
+        "arrivalDate": "2025-03-23T03:52:00+09:00"
+      }
+    ],
+    "travelAccomodations": [
+      {
+        "agent": "Booking.com",
+        "name": "Pangrati Gem views to Lycabettus",
+        "address": "Dikearchou 31, Athina, 116 36, GR, Athens, 116 36, Greece",
+        "checkInDate": "2025-02-23T15:00:00+02:00",
+        "checkOutDate": "2025-02-25T11:00:00+02:00"
+      }
+    ],
+    "receiptDomain": "multiple.providers",
+    "receiptFormat": "HTML",
+    "deviceLocale": "en_US",
+    "deviceTimezone": "America/New_York",
+    "emailId": "<trip-confirmation-2025-02-22test.email>"
+}

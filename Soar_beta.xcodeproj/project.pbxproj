@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C735DC142D90CD5400DE5BC1 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = C735DC132D90CD5400DE5BC1 /* FirebaseAnalytics */; };
+		C735DC162D90CD5400DE5BC1 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C735DC152D90CD5400DE5BC1 /* FirebaseAuth */; };
+		C735DC182D90CD5400DE5BC1 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = C735DC172D90CD5400DE5BC1 /* FirebaseAuthCombine-Community */; };
+		C735DC1A2D90CD5400DE5BC1 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = C735DC192D90CD5400DE5BC1 /* FirebaseDatabase */; };
+		C735DC1C2D90CD5400DE5BC1 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = C735DC1B2D90CD5400DE5BC1 /* FirebaseFirestore */; };
+		C735DC1E2D90CD5400DE5BC1 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = C735DC1D2D90CD5400DE5BC1 /* FirebaseFirestoreCombine-Community */; };
+		C735DC202D90CD5400DE5BC1 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = C735DC1F2D90CD5400DE5BC1 /* FirebaseStorage */; };
+		C735DC222D90CD5400DE5BC1 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = C735DC212D90CD5400DE5BC1 /* FirebaseStorageCombine-Community */; };
+		C735DC242D90CD5400DE5BC1 /* FirebaseVertexAI in Frameworks */ = {isa = PBXBuildFile; productRef = C735DC232D90CD5400DE5BC1 /* FirebaseVertexAI */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C735DBF22D90C6A800DE5BC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C735DBD92D90C6A600DE5BC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C735DBE02D90C6A600DE5BC1;
+			remoteInfo = Soar_beta;
+		};
+		C735DBFC2D90C6A800DE5BC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C735DBD92D90C6A600DE5BC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C735DBE02D90C6A600DE5BC1;
+			remoteInfo = Soar_beta;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C735DBE12D90C6A600DE5BC1 /* Soar_beta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soar_beta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C735DBF12D90C6A800DE5BC1 /* Soar_betaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Soar_betaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C735DBFB2D90C6A800DE5BC1 /* Soar_betaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Soar_betaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C735DBE32D90C6A600DE5BC1 /* Soar_beta */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Soar_beta;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C735DBDE2D90C6A600DE5BC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C735DC142D90CD5400DE5BC1 /* FirebaseAnalytics in Frameworks */,
+				C735DC182D90CD5400DE5BC1 /* FirebaseAuthCombine-Community in Frameworks */,
+				C735DC222D90CD5400DE5BC1 /* FirebaseStorageCombine-Community in Frameworks */,
+				C735DC1A2D90CD5400DE5BC1 /* FirebaseDatabase in Frameworks */,
+				C735DC242D90CD5400DE5BC1 /* FirebaseVertexAI in Frameworks */,
+				C735DC1E2D90CD5400DE5BC1 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				C735DC202D90CD5400DE5BC1 /* FirebaseStorage in Frameworks */,
+				C735DC1C2D90CD5400DE5BC1 /* FirebaseFirestore in Frameworks */,
+				C735DC162D90CD5400DE5BC1 /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C735DBEE2D90C6A800DE5BC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C735DBF82D90C6A800DE5BC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C735DBD82D90C6A600DE5BC1 = {
+			isa = PBXGroup;
+			children = (
+				C735DBE32D90C6A600DE5BC1 /* Soar_beta */,
+				C735DBE22D90C6A600DE5BC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C735DBE22D90C6A600DE5BC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C735DBE12D90C6A600DE5BC1 /* Soar_beta.app */,
+				C735DBF12D90C6A800DE5BC1 /* Soar_betaTests.xctest */,
+				C735DBFB2D90C6A800DE5BC1 /* Soar_betaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C735DBE02D90C6A600DE5BC1 /* Soar_beta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C735DC052D90C6A800DE5BC1 /* Build configuration list for PBXNativeTarget "Soar_beta" */;
+			buildPhases = (
+				C735DBDD2D90C6A600DE5BC1 /* Sources */,
+				C735DBDE2D90C6A600DE5BC1 /* Frameworks */,
+				C735DBDF2D90C6A600DE5BC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C735DBE32D90C6A600DE5BC1 /* Soar_beta */,
+			);
+			name = Soar_beta;
+			packageProductDependencies = (
+				C735DC132D90CD5400DE5BC1 /* FirebaseAnalytics */,
+				C735DC152D90CD5400DE5BC1 /* FirebaseAuth */,
+				C735DC172D90CD5400DE5BC1 /* FirebaseAuthCombine-Community */,
+				C735DC192D90CD5400DE5BC1 /* FirebaseDatabase */,
+				C735DC1B2D90CD5400DE5BC1 /* FirebaseFirestore */,
+				C735DC1D2D90CD5400DE5BC1 /* FirebaseFirestoreCombine-Community */,
+				C735DC1F2D90CD5400DE5BC1 /* FirebaseStorage */,
+				C735DC212D90CD5400DE5BC1 /* FirebaseStorageCombine-Community */,
+				C735DC232D90CD5400DE5BC1 /* FirebaseVertexAI */,
+			);
+			productName = Soar_beta;
+			productReference = C735DBE12D90C6A600DE5BC1 /* Soar_beta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C735DBF02D90C6A800DE5BC1 /* Soar_betaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C735DC082D90C6A800DE5BC1 /* Build configuration list for PBXNativeTarget "Soar_betaTests" */;
+			buildPhases = (
+				C735DBED2D90C6A800DE5BC1 /* Sources */,
+				C735DBEE2D90C6A800DE5BC1 /* Frameworks */,
+				C735DBEF2D90C6A800DE5BC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C735DBF32D90C6A800DE5BC1 /* PBXTargetDependency */,
+			);
+			name = Soar_betaTests;
+			packageProductDependencies = (
+			);
+			productName = Soar_betaTests;
+			productReference = C735DBF12D90C6A800DE5BC1 /* Soar_betaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C735DBFA2D90C6A800DE5BC1 /* Soar_betaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C735DC0B2D90C6A800DE5BC1 /* Build configuration list for PBXNativeTarget "Soar_betaUITests" */;
+			buildPhases = (
+				C735DBF72D90C6A800DE5BC1 /* Sources */,
+				C735DBF82D90C6A800DE5BC1 /* Frameworks */,
+				C735DBF92D90C6A800DE5BC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C735DBFD2D90C6A800DE5BC1 /* PBXTargetDependency */,
+			);
+			name = Soar_betaUITests;
+			packageProductDependencies = (
+			);
+			productName = Soar_betaUITests;
+			productReference = C735DBFB2D90C6A800DE5BC1 /* Soar_betaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C735DBD92D90C6A600DE5BC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					C735DBE02D90C6A600DE5BC1 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					C735DBF02D90C6A800DE5BC1 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = C735DBE02D90C6A600DE5BC1;
+					};
+					C735DBFA2D90C6A800DE5BC1 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = C735DBE02D90C6A600DE5BC1;
+					};
+				};
+			};
+			buildConfigurationList = C735DBDC2D90C6A600DE5BC1 /* Build configuration list for PBXProject "Soar_beta" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C735DBD82D90C6A600DE5BC1;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				C735DC122D90CD5400DE5BC1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C735DBE22D90C6A600DE5BC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C735DBE02D90C6A600DE5BC1 /* Soar_beta */,
+				C735DBF02D90C6A800DE5BC1 /* Soar_betaTests */,
+				C735DBFA2D90C6A800DE5BC1 /* Soar_betaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C735DBDF2D90C6A600DE5BC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C735DBEF2D90C6A800DE5BC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C735DBF92D90C6A800DE5BC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C735DBDD2D90C6A600DE5BC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C735DBED2D90C6A800DE5BC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C735DBF72D90C6A800DE5BC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C735DBF32D90C6A800DE5BC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C735DBE02D90C6A600DE5BC1 /* Soar_beta */;
+			targetProxy = C735DBF22D90C6A800DE5BC1 /* PBXContainerItemProxy */;
+		};
+		C735DBFD2D90C6A800DE5BC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C735DBE02D90C6A600DE5BC1 /* Soar_beta */;
+			targetProxy = C735DBFC2D90C6A800DE5BC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C735DC032D90C6A800DE5BC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C735DC042D90C6A800DE5BC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C735DC062D90C6A800DE5BC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Soar_beta/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Soar.Soar-beta";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C735DC072D90C6A800DE5BC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Soar_beta/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Soar.Soar-beta";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C735DC092D90C6A800DE5BC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Soar.Soar-betaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Soar_beta.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Soar_beta";
+			};
+			name = Debug;
+		};
+		C735DC0A2D90C6A800DE5BC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Soar.Soar-betaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Soar_beta.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Soar_beta";
+			};
+			name = Release;
+		};
+		C735DC0C2D90C6A800DE5BC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Soar.Soar-betaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Soar_beta;
+			};
+			name = Debug;
+		};
+		C735DC0D2D90C6A800DE5BC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Soar.Soar-betaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Soar_beta;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C735DBDC2D90C6A600DE5BC1 /* Build configuration list for PBXProject "Soar_beta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C735DC032D90C6A800DE5BC1 /* Debug */,
+				C735DC042D90C6A800DE5BC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C735DC052D90C6A800DE5BC1 /* Build configuration list for PBXNativeTarget "Soar_beta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C735DC062D90C6A800DE5BC1 /* Debug */,
+				C735DC072D90C6A800DE5BC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C735DC082D90C6A800DE5BC1 /* Build configuration list for PBXNativeTarget "Soar_betaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C735DC092D90C6A800DE5BC1 /* Debug */,
+				C735DC0A2D90C6A800DE5BC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C735DC0B2D90C6A800DE5BC1 /* Build configuration list for PBXNativeTarget "Soar_betaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C735DC0C2D90C6A800DE5BC1 /* Debug */,
+				C735DC0D2D90C6A800DE5BC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C735DC122D90CD5400DE5BC1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C735DC132D90CD5400DE5BC1 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C735DC122D90CD5400DE5BC1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		C735DC152D90CD5400DE5BC1 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C735DC122D90CD5400DE5BC1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		C735DC172D90CD5400DE5BC1 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C735DC122D90CD5400DE5BC1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		C735DC192D90CD5400DE5BC1 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C735DC122D90CD5400DE5BC1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		C735DC1B2D90CD5400DE5BC1 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C735DC122D90CD5400DE5BC1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		C735DC1D2D90CD5400DE5BC1 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C735DC122D90CD5400DE5BC1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		C735DC1F2D90CD5400DE5BC1 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C735DC122D90CD5400DE5BC1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		C735DC212D90CD5400DE5BC1 /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C735DC122D90CD5400DE5BC1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+		C735DC232D90CD5400DE5BC1 /* FirebaseVertexAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C735DC122D90CD5400DE5BC1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseVertexAI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C735DBD92D90C6A600DE5BC1 /* Project object */;
+}
