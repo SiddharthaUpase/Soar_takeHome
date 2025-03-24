@@ -22,9 +22,15 @@ cd Soar_beta
 open Soar_beta.xcodeproj
 ```
 
-3.Add an open ai api key in the ChatMemoryHelper File
+3. Install Firebase packages in Xcode
+   - In Xcode, go to File > Add Packages
+   - Enter the Firebase GitHub URL: https://github.com/firebase/firebase-ios-sdk
+   - Select the Firebase packages you need (at minimum, FirebaseCore and FirebaseFirestore)
+   - Click "Add Package"
 
-4. Run the application
+4. Add an open ai api key in the ChatMemoryHelper File
+
+5. Run the application
    - Select your desired simulator or connected device
    - Press the Run button (▶) or use Command+R
 
